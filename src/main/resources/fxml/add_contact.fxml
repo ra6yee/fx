@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="106.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Add_Conts">
+   <children>
+      <HBox minHeight="-Infinity" prefHeight="51.0" prefWidth="450.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="95.0" text="имя">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="15.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="FieldName" prefHeight="24.0" prefWidth="149.0">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="ok" minHeight="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="ок">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox minHeight="-Infinity" prefHeight="55.0" prefWidth="450.0">
+         <children>
+            <Label prefHeight="48.0" prefWidth="96.0" text="телефон">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="15.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets top="2.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="FieldNum" maxHeight="-Infinity" minHeight="-Infinity">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="cancel" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="отмена">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
